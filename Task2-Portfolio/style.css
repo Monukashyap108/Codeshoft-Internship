@@ -1,0 +1,344 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+ 
+
+.container {
+    width: 100vw;
+    height: 130vh;
+    background: linear-gradient(#708090,rgb(241, 135, 237))	;
+    
+    /* ?clip-path: polygon(0 0, 100% 0, 100% 90%, 55% 100%, 55% 100%, 0 90%); */
+}
+
+  /* here start the home codding in css  */
+
+
+.Content{
+    /* border: 2px solid ; */
+    width: 650px;
+    position: relative;
+    left:30%;
+    top:-27%;
+    height: 600px;
+    text-align: center;
+   
+}
+.Content h2{
+  color:rgb(0, 251, 255);
+  font-size: 30px;
+}
+.Content h1{
+    font-size:46px;
+    margin-top: 10px;
+    color:white;
+}
+.Content span{
+    color:rgb(0, 251, 255);
+}
+.Content p{
+    font-size: 15px;
+    font-weight: 10px;
+    font-family:'Times New Roman', Times, serif;
+    position: relative;
+    left:34%;
+    top:30px;
+    text-align: left;
+   color:rgb(230, 219, 219)
+}
+.b2{
+    position: relative;
+    top:60px;
+}
+
+ /* here close the home css */
+
+
+
+
+ /* services coding strat here */
+.services {
+    width: 100vw;
+    height: 60vh;
+     background: linear-gradient(#708090,rgb(241, 135, 237));
+
+}
+.P1{
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 63px;
+    color:white;
+}
+.item{
+    width: 350px;
+    height: 250px;
+    /* background-color: white; */
+    float: left;
+margin-left: 80px;
+position: relative;
+top:20%;
+left:2%;
+border-radius: 20px;
+transition: all 3s ease-out;
+box-shadow: 0px 0px 20px 2px rgb(159, 80, 143),
+0px 0px 20px 2px rgb(164, 61, 159),
+0px 0px 20px 2px rgb(86, 106, 129),
+0px 0px 40px 2px rgb(117, 148, 167) ;
+
+}
+.h3{
+    text-align: center;
+    font-weight: bold;
+    margin-top: 40px;
+    font-size: 25px;
+    color:blue;
+}
+.p0{
+    margin-top: 20px;
+    margin-left: 12px;
+}
+.item:hover{
+    background:  rgb(101, 228, 228);
+     
+}
+ 
+/* border and navbar coding  main img also here */
+.img{
+    border-radius:10px ;
+    margin: 25px;
+    position: fixed;
+    z-index: 2;
+}
+.anchor{
+    padding-left: 10px;
+    position: fixed;
+    top:33px;
+    left:80px;
+    z-index: 3;
+     
+    /* border:2px solid white; */
+    
+
+}
+.anchor a{
+    padding:7px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-size: 23px;
+    color:rgb(231, 214, 214);
+    /* border: 2px solid; */
+    margin-left: 10px;
+    
+}
+.anchor a:hover{
+     
+    background-color: rgb(56, 177, 177);
+}
+ button{
+    float: right;
+    margin-top: 30px;
+    margin-right: 60px;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align: center;
+    border-radius:3px ;
+    background-color: cyan;
+    border: 2px solid white;
+ }
+ button a{
+    text-decoration: none;
+ }
+ button:hover{
+    background-color: white;
+    transform: translateY(-100%);
+ }
+ .img2
+ {
+    position: relative;
+    top:20%;
+    width: 400px;
+    height: 500px;
+    border-radius:25%;
+    left:14px;
+ }
+  /* close the main navbr and header */
+
+
+  /* here :start the about coding so let check it  */
+  .about {
+    width: 100vw;
+    height: 70vh;
+    /* background-color:white; */
+        background: linear-gradient(rgb(241, 135, 237),#708090);
+    ;
+    z-index: 1;
+    /* border: 2px solid ; */
+  }
+    .item1{
+     width: 96vw;
+    height: 400px;
+    /* background-color: rgb(252, 252, 252); */
+    float: left;
+margin-left: 80px;
+position: relative;
+top:8%;
+left:-3%;
+border-radius: 20px;
+transition: all 0.7s ease-out;
+/* border: 2px solid  rgb(240, 240, 240); */
+box-shadow: 0px 0px 20px 2px rgb(159, 80, 143),
+0px 0px 20px 2px rgb(164, 61, 159),
+0px 0px 20px 2px rgb(129, 86, 128),
+0px 0px 40px 2px rgb(117, 148, 167) ;
+ 
+}
+#igm4
+{
+    width: 400px;
+    opacity: .5;
+    border-radius: 4%;
+    height: 300px;
+    position: relative;
+    left:5%;
+    top:70px;
+}
+.h04{
+    text-align: center;
+    /* border: 2px solid; */
+    width: 100px;
+    position: relative;
+    left:40%;
+    top:-60%;
+    font-size: 35px;
+    color:rgb(13, 11, 11);
+}
+.name{
+    /* border: 2px solid ; */
+    position: relative;
+    left:40%;
+    top:-60%;
+    font-size: 40px;
+    color:rgb(115, 238, 49);
+}
+.detail{
+    position: relative;
+    left:40%;
+    top:-57%;
+    font-size: 20px;
+    color:whitesmoke;
+    /* border: 2px solid; */
+    width: 650px;
+}
+
+   
+
+.h1{
+    color:rgb(24, 161, 207);
+    text-align: center;
+    /* margin-top: 30px; */
+    font-size: 45px;
+    margin-left: 80px;
+   
+}
+/* here start the project */
+.project {
+    width: 100vw;
+    height: 60vh;
+     background: linear-gradient(rgb(241, 135, 237),#708090);
+     box-shadow: 0px 0px 20px 2px rgb(159, 80, 143),
+     0px 0px 20px 2px rgb(164, 61, 159),
+     0px 0px 20px 2px rgb(129, 86, 128),
+     0px 0px 40px 2px rgb(117, 148, 167) ;
+      
+
+}
+.project_h2{
+    color:rgb(66, 195, 235);
+    text-align: center;
+    
+    font-size: 45px;
+    margin-left: 50px;
+}
+
+/* COntact :start000 */
+.Contact{
+    width: 100vw;
+    height: 70vh;
+     background: linear-gradient(#708090,rgb(241, 135, 237));
+     box-shadow: 0px 0px 20px 2px rgb(159, 80, 143),
+     0px 0px 20px 2px rgb(164, 61, 159),
+     0px 0px 20px 2px rgb(129, 86, 128),
+     0px 0px 40px 2px rgb(117, 148, 167) ;
+     /* border: 2px solid; */
+      
+}
+footer
+{
+    /* background: linear-gradient(rgb(241, 135, 237),#708090);  */
+    text-align: center;
+   
+   
+}
+footer a{
+    margin-left: 20px;
+    text-decoration: none;
+    font-size: 25px;
+    position: relative;
+    top:450px;
+    
+}
+.p02{
+    background: linear-gradient(rgb(241, 135, 237),#708090); 
+    height: 20px;
+}
+.item03{
+    width: 400px;
+    height: 450px;
+    /* background-color: white; */
+    float: left;
+margin-left: 80px;
+position: relative;
+top:1%;
+left:4%;
+border-radius: 20px;
+transition: all 3s ease-out;
+box-shadow: 0px 0px 20px 2px rgb(159, 80, 143),
+0px 0px 20px 2px rgb(164, 61, 159),
+0px 0px 20px 2px rgb(86, 106, 129),
+0px 0px 40px 2px rgb(117, 148, 167) ;
+}
+ 
+input{
+    font-size: 20px;
+    border: none;
+    outline: none;
+    padding: 10px;
+    width: 300px;
+    border-radius: 5px;
+    
+    margin-top: 15px;
+ margin-left: 20px; 
+ border-bottom: 3px solid rgb(54, 47, 47);
+ background:  transparent ;   color:rgb(251, 246, 246);
+}
+ 
+textarea{
+    margin-left: 20px;
+    border: 3px solid rgb(54, 47, 47);
+    outline: none;
+    width: 320px;
+    background:  transparent ; 
+    color: white;
+     
+}
+::placeholder{
+    margin-left: 20px;
+    color: rgb(222, 158, 158);
+    font-size: 20px;
+}
+.Submit{
+    border: none;
+    margin-top: -6px;
+}
