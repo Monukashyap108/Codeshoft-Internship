@@ -1,0 +1,35 @@
+body{ 
+background: #000;     
+}
+form {
+    border: 2px solid rgb(170, 170, 141);
+    width: 220px;
+    padding: 10px;
+    margin: 80px auto;
+    background: #000;
+    height: 250px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 2px 2px;
+}
+#btn1 {
+    padding: 10px;
+    width: 200px;
+    margin-left: 3px;
+    font-size: 30px;
+    border-radius: 10px;
+
+}
+ 
+.btn {
+     padding: 5px;
+    border-radius: 20px;
+}
+.grid {
+    display: grid;
+    grid-template-columns: .3fr .3fr .3fr .3fr;
+    margin-top: 29px;
+    position: relative;
+    left: 1%;
+    gap: 10px;
+}
+ 
